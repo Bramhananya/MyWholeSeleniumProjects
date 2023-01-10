@@ -1,0 +1,20 @@
+
+<suite name = "Creating New Account">
+
+     <test name = "Validating All Records">
+
+               <parameters name = "url"  value = "http://facebook.com"></parameters>
+               <parameters name = "FirstName"  value = "Ankush Horke"></parameters>
+               <parameters name = "LastName"  value = "Rinkita Horke"></parameters>
+               <parameters name = "MobNo"  value = "7448081280"></parameters>
+               <parameters name = "Password"  value = "Rinkita@123"></parameters>
+               
+              <parameters name = "Gender"  value = "Male"></parameters>
+
+           <classes>
+                <class   name = "Parameters_practise.Creating_New_Contact"></class>
+           </classes>
+
+      </test>
+
+</suite>

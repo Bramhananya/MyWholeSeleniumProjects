@@ -1,0 +1,23 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "Run All TestCases" >
+   
+    <test  name = "All The Testng Test Cases">
+    
+       <classes >
+       
+                     <class name = "Test_Ng.Amezon">  </class>               
+                     <class name = "Test_Ng.Asertions_Use"></class>
+                     <class  name = "Test_Ng.depends_On" ></class>
+                     <class  name = "Test_Ng.Facebook_Test"></class>
+                     <class  name = "Test_Ng.Gmail_Initial"></class>
+                     <class   name = "Test_Ng.Gmail_Teat"></class>
+                     <class   name = "Test_Ng.google_test"></class>           
+             
+       </classes>
+     
+    </test>
+   
+</suite>
+

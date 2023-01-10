@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Creating New Account]">
+  <test thread-count="5" name="Validating All Records(failed)">
+    <classes>
+      <class name="Parameters_practise.Creating_New_Contact">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Parameters_practise.Creating_New_Contact -->
+    </classes>
+  </test> <!-- Validating All Records(failed) -->
+</suite> <!-- Failed suite [Creating New Account] -->

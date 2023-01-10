@@ -1,0 +1,14 @@
+<suite  name = "ParameterTest">
+         
+               <test    name = "Parameters Practise Tests" >
+            
+                      <parameter name="FacebookUrl" value="https://Facebook.com" ></parameter>
+                      <parameter name="Useridvalue" value="Ankita Patil"></parameter>
+                     <parameter name="PasswordName" value="ankita@123"></parameter>           
+                <classes>
+                        <class    name = "Parameters_practise.Filling_prameters"></class>         
+                </classes> 
+                        
+               </test>
+          
+        </suite>	 

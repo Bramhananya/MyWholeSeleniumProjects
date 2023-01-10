@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParameterTest]">
+  <test thread-count="5" name="Parameters Practise Tests(failed)">
+    <parameter name="PasswordName" value="ankita@123"/>
+    <parameter name="Useridvalue" value="Ankita Patil"/>
+    <parameter name="FacebookUrl" value="https://Facebook.com"/>
+    <classes>
+      <class name="Parameters_practise.Filling_prameters">
+        <methods>
+          <include name="yahoo_login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Parameters_practise.Filling_prameters -->
+    </classes>
+  </test> <!-- Parameters Practise Tests(failed) -->
+</suite> <!-- Failed suite [ParameterTest] -->
